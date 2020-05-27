@@ -14,6 +14,6 @@ for c in article:
         # 新增一筆 key value到output dictionary
         output[c] = 1
     else:
-        output[c] = output[c] + 1
+        output[c] += 1
 print("數完的結果是:", output)
 print("的出現幾次:", output["的"])
